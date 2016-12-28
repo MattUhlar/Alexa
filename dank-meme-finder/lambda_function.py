@@ -38,7 +38,6 @@ reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID,
 
 
 # --------------- Entry Point ------------------
-
 def lambda_handler(event, context):
     """ Route the incoming request based on type (LaunchRequest, IntentRequest, etc.) 
     The JSON body of the request is provided in the event parameter.
@@ -60,7 +59,6 @@ def lambda_handler(event, context):
         return on_session_ended(request, session)
 
 # --------------- Functions that control the skill's state changes ------------------
-
 def on_session_started(session_started_request, session):
     """ Called when the session starts """
 
@@ -160,7 +158,6 @@ def send_dank_meme():
     return get_success_response()
 
 # --------------- Helpers that build all of the responses ----------------------
-
 def build_speechlet_response(title, output, reprompt_text, should_end_session):
     return {
         'outputSpeech': {

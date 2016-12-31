@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "DisplayPage",
+      "slots": [
+        {
+          "name": "Website",
+          "type": "LIST_OF_WEBSITES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

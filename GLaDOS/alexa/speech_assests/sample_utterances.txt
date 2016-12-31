@@ -1,0 +1,4 @@
+DisplayPage open {Website}
+DisplayPage navigate to {Website}
+DisplayPage show {Website}
+DisplayPage bring up {Website}
